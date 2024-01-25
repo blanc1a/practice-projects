@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 id="title">Harry Potter inspired Survey Form</h1>
+  <p id="description">“Happiness can be found even in the darkest of times, if one only remembers to turn on the light.”
+    - Albus Dumbledore</p>
+  <div id="formarea">
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Name</label> <br>
+        <input id="name" type="text" required placeholder="Enter your name here"> <br>
+        <label id="email-label">Email</label> <br>
+        <input id="email" type="email" required placeholder="Enter your email here"> <br>
+        <label id="number-label">Age</label> <br>
+        <input id="number" type="number" min="12" max="100" placeholder="What's your age?"> <br>
+      </fieldset>
+      <fieldset>
+        <label>Do you prefer the books or the movies?</label> <br>
+        <select id="dropdown">
+          <option>Books</option>
+          <option>Movies</option>
+        </select> <br>
+      </fieldset>
+      <fieldset>
+        <label>Would you recommend the Harry Potter films?</label> <br>
+        <input type="radio" name="grouped" value="definetly"> Definetly <br>
+        <input type="radio" name="grouped" value="maybe"> Maybe <br>
+        <input type="radio" name="grouped" value="notsure"> Not sure <br>
+      </fieldset>
+      <fieldset>
+        <label>Would you recommend the Harry Potter books?</label> <br>
+        <input type="radio" name="grouped" value="definetly"> Definetly <br>
+        <input type="radio" name="grouped" value="maybe"> Maybe <br>
+        <input type="radio" name="grouped" value="notsure"> Not sure <br>
+      </fieldset>
+      <fieldset>
+        <label>Which movie did you like the most?</label> <br>
+        <input type="checkbox" name="cb" value="stone" id="check1">
+        <label for="check1">Harry Potter and the Philosopher's Stone</label> <br>
+        <input type="checkbox" name="cb" value="chamber" id="check2">
+        <label for="check2">Harry Potter and the Chamber of Secrets</label> <br>
+        <input type="checkbox" name="cb" value="prisoner" id="check3">
+        <label for="check3">Harry Potter and the Prisoner of Azkaban</label> <br>
+        <input type="checkbox" name="cb" value="goblet" id="check4">
+        <label for="check4">Harry Potter and the Goblet of Fire</label> <br>
+        <input type="checkbox" name="cb" value="order" id="check5">
+        <label for="check5">Harry Potter and the Order of the Phoenix</label> <br>
+        <input type="checkbox" name="cb" value="halfblood" id="check6">
+        <label for="check6">Harry Potter and the Half-Blood Prince </label> <br>
+        <input type="checkbox" name="cb" value="deathly" id="check7">
+        <label for="check7">Harry Potter and the Deathly Hallows – Part 1</label> <br>
+        <input type="checkbox" name="cb" value="hollows" id="check8">
+        <label for="check8">Harry Potter and the Deathly Hallows – Part 2</label> <br>
+      </fieldset>
+      <fieldset>
+        <label>Why do you like this film best? Please write a few sentences.</label> <br>
+        <textarea id="comment" cols="65" rows="10" placeholder="Enter your comment here..."></textarea>
+      </fieldset>
+      <input class="button" type="submit" id="submit" value="Submit">
+    </form>
+  </div>
+</body>
+
+</html>

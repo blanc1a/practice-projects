@@ -1,0 +1,47 @@
+* {
+  background-color: #061539;
+  color: white;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#title,
+p {
+  text-align: center;
+}
+fieldset {
+  background-color: #162955;
+}
+label {
+  background-color: #162955;
+  font-style: oblique;
+  font-weight: 600;
+}
+#name,
+#email,
+#number,
+#dropdown,
+#comment {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+input,
+select,
+textarea {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#formarea {
+  display: block;
+  padding: 2.5rem;
+}
+
+.button {
+  margin-top: 5px;
+  border-color: white;
+  border-radius: 5px;
+}
