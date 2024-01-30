@@ -16,26 +16,26 @@
         <button id="btn-clr-generator" class="btn-generate-clr">Press to generate color</button>
         <div class="clr-code-container">
             <p>Get the code:</p>
-            <div class="clr-code-radio">
+            <form id="filterClrCode" class="clr-code-radio">
                 <label for="clr-code">
-                    <input type="radio" name="clr-code" checked> HEX
+                    <input id="hex" type="radio" name="clr-code" checked> HEX
                 </label>
                 <label for="clr-code">
-                    <input type="radio" name="clr-code"> RGB
+                    <input id="rgb" type="radio" name="clr-code"> RGB
                 </label>
                 <label for="clr-code">
-                    <input type="radio" name="clr-code"> HSL
+                    <input id="hsl" type="radio" name="clr-code"> HSL
                 </label>
                 <label for="clr-code">
-                    <input type="radio" name="clr-code"> HSV
+                    <input id="hsv" type="radio" name="clr-code"> HSV
                 </label>
                 <label for="clr-code">
-                    <input type="radio" name="clr-code"> CMYK
+                    <input id="cmyk" type="radio" name="clr-code"> CMYK
                 </label>
-            </div>
+            </form>
         </div>
         <div class="container">
-            <p id="colorCode" class="color-code">#efe6dd</p>
+            <p id="colorCode" class="color-code">#2B8582</p>
             <button id="btnCopy" class="btn-copy">Copy</button>
         </div>
     </main>
