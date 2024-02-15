@@ -1,0 +1,36 @@
+body {
+  margin: 0px;
+  background-color: #dfd0bf;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1 {
+  font-family: fantasy;
+  font-size: 3em;
+  color: #b88c5a;
+  border-bottom: 2px solid #c0ab8a;
+  border-right: 2px solid #c0ab8a;
+  width: 400px;
+  text-align: center;
+  box-shadow: 4px 4px 5px #888888;
+  margin-top: 10px;
+}
+
+img {
+  width: 600px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 20px;
+  transition: all 1s;
+  box-shadow: 4px 4px 5px #888888;
+  cursor: pointer;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
